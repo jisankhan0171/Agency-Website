@@ -1,0 +1,131 @@
+/* ==================================== Media Query ================================= */
+@media(max-width: 960px){
+	.navbar-nav .nav-link{
+	margin-left: 0px;
+}
+.navbar-nav{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+nav.navbar{
+	padding: 5px 15px;
+}
+
+.banner{
+	padding-top: 30px;
+}
+
+
+}
+
+
+/* ==================== for mobile screen // less than 480px */
+@media (max-width: 480px){
+	.logo{
+		width: 130px;
+	}
+	
+	.banner-left{
+	padding-top: 0px;
+    }
+
+    .banner-promo{
+    	font-size: 34px;
+    }
+
+    .tittle{
+    	font-size: 26px;
+    }
+    .tittle::before{
+	transform: translateY(47px);
+	
+    }
+/* SURVICESS */
+    .survicess{
+	padding: 40px 0;
+}
+.survicess .row{
+	margin-top: 40px;
+}
+
+.survicess-box h4{
+	font-size: 22px;
+	text-transform: uppercase;
+	
+}
+/* ABOUT */
+.about-us{
+	padding-bottom: 70px;
+	padding-top: 40px;
+	
+}
+.about-us .row{
+	margin-top: 50px;
+}
+.about-us h3{
+	font-size: 27px;
+	line-height: 1.4;
+
+}
+/* REVIEW */
+.review{
+	padding: 40px 0px;
+	padding-bottom: 50px;
+}
+.review .row{
+	margin-top: 60px;
+
+}
+.review .col-md-5{
+	margin-bottom: 30px;
+}
+.person-account{
+	display: block;
+	
+}
+.name-detail{
+	margin-left: 0px;
+	margin-top: 5px;
+}
+.review .person-account img{
+	width: 50px;
+	border-radius: 50%;
+}
+/* SOCAL */
+.socal{
+	padding: 40px 0px;
+
+}
+.socal .socal-heading{
+	font-size: 27px;
+}
+
+.socal-icon img{
+	width: 60px;
+	margin: 10px;
+	
+}
+.socal-icon{
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* FOOTER */
+footer .container{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+footer .col-sm-4{
+	margin-bottom: 30px;
+}
+.copywrite-msg {
+	letter-spacing: 1px;
+	color: #f1f1f1;
+	font-size: 15px;
+	padding: 7px 15px;
+
+}
+
+
+}

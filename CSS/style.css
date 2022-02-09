@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
+
+a:hover{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #333;
+}
+p{
+	color: #555;
+	line-height: 1.6;
+}
+
+
+/* ======================== NAV ========================= */
+/* styling navbar */
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+nav.navbar{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	padding: 5px 30px;
+
+}
+.navbar-nav .nav-link{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 15px;
+	transition: .2s ease-in;
+}
+.navbar-nav .nav-link:hover{
+	opacity: .9;
+}
+.logo{
+	width: 155px;
+}
+/* hamburger menu */
+.fa-bars{
+	color: #fff;
+	font-size: 25px !important;
+}
+
+/* ========================== BANNER ======================= */
+.banner{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	padding-top: 40px;
+}
+/* play btn link */
+.banner a{
+	color: #fff;
+	font-size: 16px;
+	transition: .2s ease-in;
+	margin-top: 10px;
+	display: inline-block;
+}
+.banner a:hover{
+	opacity: .9;
+}
+.play-btn{
+	width: 30px;
+	margin: 10px;
+}
+.banner-promo{
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 16px;
+}
+.banner p{
+	color: #fff;
+}
+.banner-left{
+	padding-top: 100px;
+}
+.wave{
+	width: 100%;
+	height: 40px;
+}
+
+/* ===================== SURVICESS ====================== */
+.survicess{
+	padding: 70px 0;
+}
+.survicess .row{
+	margin-top: 60px;
+}
+/* survicess image icon */
+.survicess img{
+	width: 60px;
+	margin: 30px auto 35px;
+	display: block;
+	border-radius: 50%;
+	border:  3px solid #a517ba;
+	padding: 3px;
+}
+.survicess-box{
+	text-align: center;
+}
+.survicess-box h4{
+	font-size: 24px;
+	text-transform: uppercase;
+	
+}
+
+/* common tittle styling */
+.tittle{
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.tittle::after{
+	content: '';
+	width: 150px;
+	height: 4px;
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	display: block;
+	margin: 10px auto;
+}
+.tittle::before{
+	width: 70px;
+	height: 8px;
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	content: '';
+	display: block;
+	margin: auto;
+	transform: translateY(70px);
+	border-right: 5px;
+}
+.survicess-btn {
+	text-align: center;
+	margin-top: 60px;
+}
+.btn-primary{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	border: 0 !important;
+	padding: 10px 30px !important;
+	border-radius: 30px !important;
+}
+/* ======================= ABOUT SECTION ======================= */
+.about-us{
+	padding-bottom: 80px;
+	padding-top: 60px;
+	background: #e9eff6e8;
+}
+.about-us .row{
+	margin-top: 80px;
+}
+.about-us h3{
+	font-size: 30px;
+}
+.about-us .about-list{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.about-us .about-list li{
+	line-height: 1.8;
+	color: #444;
+	font-size: 18px;
+
+}
+
+/* =================== REVIEW ====================== */
+.review{
+	padding: 60px 0px;
+	padding-bottom: 100px;
+}
+.review .row{
+	margin-top: 80px;
+}
+.review .person-account img{
+	width: 70px;
+	border-radius: 50%;
+}
+.client-review{
+	border-left: 4px solid #a517ba;
+	padding: 0px 50px 0px 15px;
+}
+.client-review .review-description{
+	color: #111;
+}
+.person-account{
+	display: flex;
+	align-items: center;
+}
+.name-detail{
+	margin-left: 20px;
+}
+.name-detail h6{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+.name-detail small{
+	color: #555;
+	font-weight: 500;
+}
+/* ===================== SOCAL SECTION ====================== */
+.socal{
+	padding: 60px 0px;
+	background: #f8f9fa;
+}
+.socal .socal-heading{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333;
+	font-weight: 500;
+
+}
+.socal-icon{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.socal-icon a:hover img{
+	transform: translateY(-10px);
+}
+.socal-icon img{
+	width: 100px;
+	display: inline-block;
+	margin: 14px;
+	transition: .2s ease-in;
+}
+
+/* ===================== FOOTER SECTION ====================== */
+footer{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+}
+footer .container{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.footer-logo{
+	width: 140px;
+}
+.footer-logo-img-info{
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 300;
+	width: 80%;
+}
+.footer-tittle{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+.adderss{
+	list-style: none;
+	color: #fff;
+}
+.adderss li{
+	margin-bottom: 20px;
+}
+.adderss img{
+	width: 40px;
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	padding: 5px;
+	margin-right: 10px;
+}
+input.form-control{
+	border-radius: 0;
+	width: 70%;
+	height: 42px;
+	margin-top: 25px;
+}
+
+footer .btn-primary{
+	border-radius: 0 !important;
+	margin-top: 20px;
+	box-shadow: -1px -1px 3px rgba(0, 0, 0, .1);
+}
+.copywrite-msg{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+.copywrite-msg {
+	letter-spacing: 1px;
+	color: #f1f1f1;
+	font-size: 15px;
+
+}
+.line{
+	width: 70%;
+	height: 1px;
+	background: #f1f1f1;
+	margin: 0px auto 14px auto ;
+	opacity: .4;
+}
